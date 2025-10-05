@@ -1,0 +1,210 @@
+Destination,Region,Country,Category,Latitude,Longitude,Approximate Annual Tourists,Best Time to Visit,Cost of Living,Safety
+Rome,Lazio,Italy,City,41.902782,12.496366,14000000.0,Spring or Fall,Medium-high,4.0
+Florence,Tuscany,Italy,City,43.769581,11.255772,10000000.0,Spring or Fall,Medium-high,4.0
+Venice,Veneto,Italy,City,45.435559,12.336196,10000000.0,Spring or Fall,Medium-high,4.0
+Milan,Lombardy,Italy,City,45.464643,9.18854,7000000.0,Spring or Fall,High,4.0
+Naples,Campania,Italy,City,40.85133,14.25472,5000000.0,Spring or Fall,Medium,4.0
+Cinque Terre,Liguria,Italy,Coastal Town,44.131811,9.653342,3000000.0,Spring or Fall,Medium-high,4.0
+Amalfi Coast,Campania,Italy,Coastal Region,40.652843,14.495831,2000000.0,Spring or Fall,Medium-high,4.0
+Pisa,Tuscany,Italy,City,43.715899,10.996557,1500000.0,Spring or Fall,Medium,5.0
+Lake Como,Lombardy,Italy,Lake,45.831894,9.237083,1000000.0,Spring or Fall,Medium-high,5.0
+Verona,Veneto,Italy,City,45.439559,10.996557,1000000.0,Spring or Fall,Medium,5.0
+Barcelona,Catalonia,Spain,City,41.385064,2.173135,12700000.0,Spring or Fall,Medium-high,4.0
+Madrid,Community of Madrid,Spain,City,40.416775,-3.70379,7000000.0,Spring or Fall,Medium-high,4.0
+Seville,Andalusia,Spain,City,37.38908,-5.98398,3500000.0,Spring or Fall,Medium,4.0
+Valencia,Valencian Community,Spain,City,39.472925,-0.378464,2500000.0,Spring or Fall,Medium,4.0
+Granada,Andalusia,Spain,City,37.187222,-3.60531,2000000.0,Spring or Fall,Medium,4.0
+Malaga,Andalusia,Spain,City,36.720161,-4.421234,2000000.0,Spring or Fall,Medium,4.0
+Bilbao,Basque Country,Spain,City,43.257158,-2.936487,1500000.0,Spring or Fall,Medium-high,5.0
+Ibiza,Balearic Islands,Spain,Island,38.901776,1.433135,8000000.0,Summer,Medium-high,4.0
+Majorca,Balearic Islands,Spain,Island,39.363371,3.014272,12000000.0,Spring or Fall,Medium-high,4.0
+San Sebastian,Basque Country,Spain,City,43.317915,-1.959563,1000000.0,Spring or Fall,Medium-high,5.0
+Paris,Ile-de-France,France,City,48.856614,2.352222,37500000.0,Spring or Fall,High,4.0
+Nice,Provence-Alpes-Cote d'Azur,France,Coastal City,43.703761,7.268731,4000000.0,Spring or Fall,Medium-high,4.0
+Marseille,Provence-Alpes-Cote d'Azur,France,Coastal City,43.296168,5.370254,3500000.0,Spring or Fall,Medium,4.0
+Lyon,Auvergne-Rhone-Alpes,France,City,45.764048,4.835656,2000000.0,Spring or Fall,Medium-high,4.0
+Bordeaux,Nouvelle-Aquitaine,France,City,44.837789,-0.57918,1500000.0,Spring or Fall,Medium-high,4.0
+Strasbourg,Grand Est,France,City,48.572935,7.751936,1000000.0,Spring or Fall,Medium-high,4.0
+Cannes,Provence-Alpes-Cote d'Azur,France,Coastal City,43.542333,7.02427,800000.0,Spring or Fall,High,4.0
+Mont Saint-Michel,Normandy,France,Island,48.636111,-1.504444,3500000.0,Spring or Fall,Medium-high,5.0
+Loire Valley,Centre-Val de Loire,France,Region,47.6268,-0.9361,10000000.0,Spring or Fall,Medium,5.0
+French Alps,Auvergne-Rhone-Alpes,France,Mountain Range,45.192308,6.619079,12000000.0,Winter,Medium-high,5.0
+Vienna,Vienna,Austria,City,48.208171,16.373869,7500000.0,Spring or Fall,Medium-high,5.0
+Salzburg,Salzburg,Austria,City,47.697994,13.040555,3000000.0,Spring or Fall,Medium-high,5.0
+Innsbruck,Tyrol,Austria,City,47.269219,11.397277,2000000.0,Winter,Medium-high,5.0
+Hallstatt,Upper Austria,Austria,Town,47.556733,13.649528,1000000.0,Spring or Fall,Medium-high,5.0
+Graz,Styria,Austria,City,47.070593,15.438261,1000000.0,Spring or Fall,Medium,5.0
+Zell am See,Salzburg,Austria,Town,47.516804,13.032121,800000.0,Winter,Medium-high,5.0
+Wachau Valley,Lower Austria,Austria,Valley,48.450263,15.433907,500000.0,Spring or Fall,Medium-high,5.0
+Bregenz,Vorarlberg,Austria,City,47.510488,9.741326,400000.0,Summer,Medium-high,5.0
+Vienna Woods,Lower Austria,Austria,Forest,48.174456,16.220414,2000000.0,Spring or Fall,Medium-high,5.0
+Bad Gastein,Salzburg,Austria,Town,47.320594,13.426595,200000.0,Winter,Medium-high,5.0
+Brussels,Brussels Capital,Belgium,City,50.850441,4.356949,10000000.0,Spring or Fall,Medium-high,4.0
+Bruges,West Flanders,Belgium,City,51.205937,3.210851,8000000.0,Spring or Fall,Medium-high,5.0
+Ghent,East Flanders,Belgium,City,51.057089,3.715678,5000000.0,Spring or Fall,Medium,5.0
+Antwerp,Antwerp,Belgium,City,51.223581,4.415875,4000000.0,Spring or Fall,Medium-high,5.0
+Leuven,Flemish Brabant,Belgium,City,50.872166,4.686716,2000000.0,Spring or Fall,Medium,5.0
+Dinant,Namur,Belgium,Town,50.275573,5.024897,1000000.0,Spring or Fall,Medium,5.0
+Ypres,West Flanders,Belgium,Town,50.841984,2.863538,500000.0,Spring or Fall,Medium,5.0
+Spa,Liege,Belgium,Town,50.451977,5.965836,300000.0,Spring or Fall,Medium-high,5.0
+Ostend,West Flanders,Belgium,City,51.333563,2.902675,200000.0,Spring or Fall,Medium,5.0
+Namur,Namur,Belgium,City,50.467063,4.886067,100000.0,Spring or Fall,Medium,5.0
+Copenhagen,Region Hovedstaden,Denmark,City,55.676098,12.568337,10000000.0,Spring or Fall,High,5.0
+Aarhus,Region Midtjylland,Denmark,City,56.150947,10.217696,2500000.0,Spring or Fall,Medium,5.0
+Odense,Region Syddanmark,Denmark,City,55.397081,10.395973,1500000.0,Spring or Fall,Medium,5.0
+Legoland Billund,Region Syddanmark,Denmark,Theme Park,55.709974,9.461622,2500000.0,Summer,Medium-high,5.0
+Ribe,Region Syddanmark,Denmark,Town,55.200525,8.777081,500000.0,Spring or Fall,Medium,5.0
+Roskilde,Region Sjælland,Denmark,City,55.652853,12.091578,500000.0,Spring or Fall,Medium,5.0
+Helsingør,Region Hovedstaden,Denmark,City,56.033245,12.614037,400000.0,Spring or Fall,Medium-high,5.0
+Aalborg,Region Nordjylland,Denmark,City,57.033361,9.920094,300000.0,Spring or Fall,Medium,5.0
+Aarhus Botanical Garden,Region Midtjylland,Denmark,Garden,56.161243,10.224461,100000.0,Spring or Fall,Free,5.0
+Tivoli Gardens,Region Hovedstaden,Denmark,Amusement Park,55.683798,12.572936,4000000.0,Spring or Fall,Medium-high,5.0
+Berlin,Berlin,Germany,City,52.520008,13.404954,13500000.0,Spring or Fall,Medium-high,5.0
+Munich,Bavaria,Germany,City,48.137152,11.576123,10000000.0,Spring or Fall,Medium-high,5.0
+Frankfurt,Hesse,Germany,City,50.110922,8.682127,7000000.0,Spring or Fall,High,5.0
+Cologne,North Rhine-Westphalia,Germany,City,50.936662,6.959955,5000000.0,Spring or Fall,Medium,5.0
+Hamburg,Hamburg,Germany,City,53.550278,9.993681,5000000.0,Spring or Fall,Medium-high,5.0
+Dresden,Saxony,Germany,City,51.051005,13.737234,3000000.0,Spring or Fall,Medium,5.0
+Heidelberg,Baden-Württemberg,Germany,City,49.405154,8.691038,2000000.0,Spring or Fall,Medium-high,5.0
+Rothenburg ob der Tauber,Bavaria,Germany,Town,49.443589,10.090444,1000000.0,Spring or Fall,Medium,5.0
+Neuschwanstein Castle,Bavaria,Germany,Castle,47.557778,10.748611,1500000.0,Spring or Fall,Medium-high,5.0
+Black Forest,Baden-Württemberg,Germany,Region,48.180233,8.322533,5000000.0,Spring or Fall,Medium-high,5.0
+Monaco-Ville,Monaco-Ville,Monaco,City,45.437078,7.426435,3000000.0,Spring or Fall,Extremely high,5.0
+Monte Carlo,Monaco-Ville,Monaco,District,45.437078,7.426435,3000000.0,Spring or Fall,Extremely high,5.0
+Casino Square,Monaco-Ville,Monaco,Square,45.437078,7.426435,2000000.0,Spring or Fall,Extremely high,5.0
+Oceanographic Museum,Monaco-Ville,Monaco,Museum,45.437078,7.426435,1000000.0,Spring or Fall,Medium,5.0
+Japanese Garden,Monaco-Ville,Monaco,Garden,45.437078,7.426435,500000.0,Spring or Fall,Free,5.0
+Saint-Martin Gardens,Monaco-Ville,Monaco,Gardens,45.437078,7.426435,300000.0,Spring or Fall,Free,5.0
+Exotic Garden,Monaco-Ville,Monaco,Garden,45.437078,7.426435,200000.0,Spring or Fall,Free,5.0
+Rainier III Botanical Garden,Monaco-Ville,Monaco,Garden,45.437078,7.426435,100000.0,Spring or Fall,Free,5.0
+Larvotto Beach,Monaco-Ville,Monaco,Beach,45.437078,7.426435,100000.0,Summer,Extremely high,5.0
+Grimaldi Forum,Monaco-Ville,Monaco,Cultural Center,45.437078,7.426435,50000.0,Year-round,High,5.0
+Moscow,Moscow Oblast,Russia,City,55.755796,37.617315,12500000.0,Spring or Fall,Medium-high,4.0
+St. Petersburg,Leningrad Oblast,Russia,City,59.934083,30.335285,8000000.0,Spring or Fall,Medium-high,4.0
+Sochi,Krasnodar Krai,Russia,City,43.565133,39.60304,3000000.0,Summer,Medium-high,4.0
+Kazan,Republic of Tatarstan,Russia,City,55.794722,49.111389,2000000.0,Spring or Fall,Medium,5.0
+Vladivostok,Primorsky Krai,Russia,City,43.565133,131.885929,1000000.0,Spring or Fall,Medium-high,5.0
+Lake Baikal,Irkutsk Oblast,Russia,Lake,53.151074,105.257548,2500000.0,Summer,Medium,5.0
+Kamchatka Peninsula,Kamchatka Krai,Russia,Peninsula,56.021562,158.624312,1000000.0,Summer,Medium-high,3.0
+Golden Ring,Central Russia,Russia,Region,56.021562,39.624312,10000000.0,Spring or Fall,Medium,5.0
+Trans-Siberian Railway,Russia,Russia,Railway,56.021562,105.624312,2000000.0,Summer,Medium-high,5.0
+St. Basil's Cathedral,Moscow,Russia,Church,55.755796,37.617315,2000000.0,Spring or Fall,Free,5.0
+Athens,Attica,Greece,City,37.979452,23.716217,10000000.0,Spring or Fall,Medium-high,4.0
+Santorini,South Aegean,Greece,Island,36.423967,25.444106,2000000.0,Spring or Fall,High,5.0
+Mykonos,South Aegean,Greece,Island,37.426508,25.278709,2000000.0,Spring or Fall,High,5.0
+Crete,Crete,Greece,Island,35.243662,25.047873,3000000.0,Spring or Fall,Medium-high,5.0
+Rhodes,South Aegean,Greece,Island,36.441904,28.188827,2000000.0,Spring or Fall,Medium-high,5.0
+Corfu,Ionian Islands,Greece,Island,39.613728,19.900073,1500000.0,Spring or Fall,Medium,5.0
+Meteora,Thessaly,Greece,Monastery Complex,39.729444,21.424722,1000000.0,Spring or Fall,Medium,5.0
+Delphi,Central Greece,Greece,Archaeological Site,38.475111,22.217778,1000000.0,Spring or Fall,Medium,5.0
+Nafplio,Peloponnese,Greece,City,37.571111,22.767778,500000.0,Spring or Fall,Medium,5.0
+Olympia,Peloponnese,Greece,Archaeological Site,37.724167,21.723056,500000.0,Spring or Fall,Medium,5.0
+Lisbon,Lisbon,Portugal,City,38.710825,-9.136136,3500000.0,Spring or Fall,Medium-high,4.0
+Porto,Porto,Portugal,City,41.149631,-8.610975,2500000.0,Spring or Fall,Medium-high,5.0
+Algarve,Algarve,Portugal,Region,37.044335,-7.774026,3000000.0,Spring or Fall,Medium-high,5.0
+Madeira,Madeira Island,Portugal,Island,32.652843,-16.976997,1000000.0,Spring or Fall,Medium-high,5.0
+Sintra,Lisbon,Portugal,Town,38.730825,-9.360576,1000000.0,Spring or Fall,Medium-high,5.0
+Obidos,Leiria,Portugal,Town,39.382114,-8.895664,500000.0,Spring or Fall,Medium,5.0
+Aveiro,Aveiro,Portugal,City,40.64275,-8.65109,300000.0,Spring or Fall,Medium,5.0
+Braga,Braga,Portugal,City,41.537114,-8.422754,200000.0,Spring or Fall,Medium,5.0
+Coimbra,Coimbra,Portugal,City,40.205978,-8.410443,150000.0,Spring or Fall,Medium,5.0
+Douro Valley,Douro Valley,Portugal,Region,41.086758,-7.791548,500000.0,Spring or Fall,Medium-high,5.0
+Oslo,Oslo,Norway,City,59.913868,10.751964,2500000.0,Spring or Fall,High,5.0
+Bergen,Vestland,Norway,City,60.395186,5.324015,1500000.0,Spring or Fall,Medium-high,5.0
+Sognefjord,Vestland,Norway,Fjord,61.006944,7.025278,1000000.0,Spring or Fall,Medium-high,5.0
+Geirangerfjord,Møre og Romsdal,Norway,Fjord,62.103056,7.031389,500000.0,Spring or Fall,Medium-high,5.0
+Lofoten Islands,Nordland,Norway,Islands,68.005472,13.033294,500000.0,Spring or Fall,Medium-high,5.0
+Troms?,Troms,Norway,City,69.649328,18.955689,300000.0,Spring or Fall,Medium-high,5.0
+Jotunheimen National Park,Innlandet,Norway,National Park,61.357778,8.322533,200000.0,Summer,Medium-high,5.0
+Hardangervidda National Park,Vestland,Norway,National Park,60.769653,7.333111,100000.0,Summer,Medium-high,5.0
+Preikestolen,Rogaland,Norway,Cliff,59.395186,5.930833,300000.0,Summer,Medium-high,5.0
+Flåm,Vestland,Norway,Village,60.730556,7.024444,50000.0,Summer,Medium-high,5.0
+Stockholm,Stockholm County,Sweden,City,59.329302,18.068581,2500000.0,Spring or Fall,Medium-high,5.0
+Gothenburg,Västergötland,Sweden,City,57.708863,11.973339,1500000.0,Spring or Fall,Medium,5.0
+Malmö,Skåne,Sweden,City,55.609934,13.007758,1000000.0,Spring or Fall,Medium,5.0
+Lapland,Norrbotten County,Sweden,Region,67.005472,20.033294,500000.0,Winter,Medium-high,5.0
+Fjällbacka,Västergötland,Sweden,Town,58.026014,11.464321,200000.0,Spring or Fall,Medium-high,5.0
+Visby,Gotland County,Sweden,City,57.744674,18.285443,200000.0,Spring or Fall,Medium-high,5.0
+Uppsala,Uppsala County,Sweden,City,59.858134,17.638943,150000.0,Spring or Fall,Medium,5.0
+Kiruna,Norrbotten County,Sweden,City,67.853244,20.236394,100000.0,Spring or Fall,Medium-high,5.0
+Sarek National Park,Norrbotten County,Sweden,National Park,67.517222,17.522778,50000.0,Summer,Medium-high,5.0
+Vasa Museum,Stockholm County,Sweden,Museum,59.329302,18.068581,1000000.0,Year-round,Medium,5.0
+Zurich,Zurich,Switzerland,City,47.376881,8.541694,3000000.0,Spring or Fall,High,5.0
+Geneva,Geneva,Switzerland,City,46.204391,6.147435,2000000.0,Spring or Fall,High,5.0
+Lucerne,Central Switzerland,Switzerland,City,47.051389,8.306944,1500000.0,Spring or Fall,Medium-high,5.0
+Interlaken,Bern,Switzerland,Town,46.680278,7.855833,1000000.0,Spring or Fall,Medium-high,5.0
+Zermatt,Valais,Switzerland,Town,46.051389,7.7025,500000.0,Winter,High,5.0
+Jungfraujoch,Bern,Switzerland,Mountain Pass,46.538056,7.986944,350000.0,Year-round,High,5.0
+Rhine Falls,Schaffhausen,Switzerland,Waterfall,47.567778,8.675556,1000000.0,Spring or Fall,Medium,5.0
+Swiss National Park,Grisons,Switzerland,National Park,46.576667,10.014722,100000.0,Summer,Medium-high,5.0
+Gruy¬äres,Fribourg,Switzerland,Town,46.522222,7.034722,50000.0,Spring or Fall,Medium-high,5.0
+Montreux,Vaud,Switzerland,Town,46.520278,6.923611,100000.0,Spring or Fall,Medium-high,5.0
+Istanbul,Istanbul,Turkey,City,41.008238,28.978359,15000000.0,Spring or Fall,Medium-high,4.0
+Antalya,Antalya,Turkey,City,36.522512,30.703761,10000000.0,Spring or Fall,Medium-high,5.0
+Cappadocia,Central Anatolia,Turkey,Region,38.711845,35.156845,2000000.0,Spring or Fall,Medium-high,5.0
+Ephesus,Aegean Region,Turkey,Archaeological Site,37.742778,27.391667,1500000.0,Spring or Fall,Medium,5.0
+Pamukkale,Aegean Region,Turkey,Natural Site,37.779722,29.0825,1000000.0,Spring or Fall,Medium,5.0
+Bodrum,Aegean Region,Turkey,Town,37.134596,27.384188,1000000.0,Spring or Fall,Medium-high,5.0
+Fethiye,Aegean Region,Turkey,Town,36.686944,28.9575,500000.0,Spring or Fall,Medium-high,5.0
+Istanbul Grand Bazaar,Istanbul,Turkey,Bazaar,41.008238,28.978359,10000000.0,Year-round,Medium-high,5.0
+Topkapi Palace,Istanbul,Turkey,Palace,41.008238,28.978359,5000000.0,Year-round,Medium-high,5.0
+Blue Mosque,Istanbul,Turkey,Mosque,41.008238,28.978359,2000000.0,Year-round,Free,5.0
+Kyiv,Kyiv Oblast,Ukraine,City,50.45466,30.523842,3500000.0,Spring or Fall,Medium-high,2.0
+Lviv,Lviv Oblast,Ukraine,City,49.839973,23.989223,2000000.0,Spring or Fall,Medium,5.0
+Odessa,Odesa Oblast,Ukraine,City,46.483333,30.733333,1000000.0,Spring or Fall,Medium,2.0
+Chernobyl Exclusion Zone,Kyiv Oblast,Ukraine,Site,51.384222,30.109722,100000.0,Spring or Fall,Medium,-1.0
+Carpathian Mountains,Carpathian Mountains,Ukraine,Mountains,48.0,24.0,500000.0,Summer,Medium-high,5.0
+Kharkiv,Kharkiv Oblast,Ukraine,City,50.0,36.25,500000.0,Spring or Fall,Medium,2.0
+Dnipro,Dnipropetrovsk Oblast,Ukraine,City,48.461667,34.976667,500000.0,Spring or Fall,Medium,2.0
+Lviv Opera House,Lviv,Ukraine,Opera House,49.839973,23.989223,100000.0,Year-round,Medium,5.0
+Andriyivski Descent,Kyiv,Ukraine,Street,50.45466,30.523842,100000.0,Year-round,Medium,5.0
+Pechersk Lavra,Kyiv,Ukraine,Monastery,50.463333,30.512222,100000.0,Year-round,Medium,5.0
+London,Greater London,United Kingdom,City,51.507351,-0.127758,25000000.0,Spring or Fall,High,4.0
+Edinburgh,Scotland,United Kingdom,City,55.953252,-3.188267,3000000.0,Spring or Fall,Medium-high,5.0
+Manchester,England,United Kingdom,City,53.480958,-2.241509,2000000.0,Spring or Fall,Medium-high,5.0
+Liverpool,England,United Kingdom,City,53.408371,-2.987576,1500000.0,Spring or Fall,Medium-high,5.0
+Cambridge,England,United Kingdom,City,52.204772,0.120972,1000000.0,Spring or Fall,Medium-high,5.0
+Lake District,England,United Kingdom,National Park,54.364158,-3.083333,2000000.0,Spring or Fall,Medium-high,5.0
+Yorkshire Dales,England,United Kingdom,National Park,54.057778,-1.988889,1000000.0,Spring or Fall,Medium-high,5.0
+The Cotswolds,England,United Kingdom,Region,51.793333,-1.875,1000000.0,Spring or Fall,Medium-high,5.0
+Stonehenge,Wiltshire,United Kingdom,Prehistoric Site,51.1775,-1.996167,1000000.0,Spring or Fall,Medium-high,5.0
+Scottish Highlands,Scotland,United Kingdom,Region,57.051528,-4.213333,1000000.0,Spring or Fall,Medium-high,5.0
+Luxembourg City,Luxembourg District,Luxembourg,City,49.611668,6.130237,1500000.0,Spring or Fall,Medium-high,5.0
+Vianden,Vianden,Luxembourg,Town,49.923611,6.25,500000.0,Spring or Fall,Medium-high,5.0
+Esch-sur-Alzette,Esch-sur-Alzette,Luxembourg,City,49.517222,5.964444,300000.0,Spring or Fall,Medium,5.0
+Luxembourg American Cemetery and Memorial,Luxembourg,Luxembourg,Memorial,49.476944,6.024444,100000.0,Year-round,Free,5.0
+Mullerthal,Mullerthal,Luxembourg,Region,49.752778,6.576667,50000.0,Spring or Fall,Medium,5.0
+Beaufort Castle,Beaufort,Luxembourg,Castle,49.836667,6.522222,50000.0,Spring or Fall,Medium,5.0
+Vianden Castle,Vianden,Luxembourg,Castle,49.923611,6.25,50000.0,Spring or Fall,Medium,5.0
+Grund,Luxembourg City,Luxembourg,Neighborhood,49.605556,6.127778,50000.0,Spring or Fall,Medium-high,5.0
+Bettembourg,Bettembourg,Luxembourg,Town,49.505556,6.044444,25000.0,Spring or Fall,Medium,5.0
+Valletta,Central Region,Malta,City,35.897778,14.5075,1500000.0,Spring or Fall,Medium-high,5.0
+Mdina,Central Region,Malta,City,35.884167,14.493889,1000000.0,Spring or Fall,Medium-high,5.0
+Blue Lagoon,Gozo,Malta,Beach,36.042778,14.300278,1000000.0,Summer,Medium-high,5.0
+Marsaxlokk,Southern Region,Malta,Town,35.734722,14.558611,500000.0,Spring or Fall,Medium,5.0
+St. Paul's Bay,Northern Region,Malta,Town,35.921667,14.474167,500000.0,Spring or Fall,Medium,5.0
+Rabat,Northern Region,Malta,Town,35.879444,14.463056,200000.0,Spring or Fall,Medium,5.0
+Mosta,Central Region,Malta,Town,35.871944,14.451389,200000.0,Spring or Fall,Medium,5.0
+Marsaskala,Southern Region,Malta,Town,35.728333,14.569167,100000.0,Spring or Fall,Medium,5.0
+Gozo,Gozo,Malta,Island,36.042778,14.300278,50000.0,Spring or Fall,Medium,5.0
+Comino,Comino,Malta,Island,36.029167,14.459722,20000.0,Spring or Fall,Medium,5.0
+Reykjavik,Capital Region,Iceland,City,64.147778,-21.915556,2500000.0,Spring or Fall,High,5.0
+Blue Lagoon,Southwest Region,Iceland,Geothermal Spa,63.8925,-21.8639,1000000.0,Year-round,High,5.0
+Golden Circle,South Iceland,Iceland,Region,64.006944,-21.1325,1000000.0,Spring or Fall,Medium-high,5.0
+Skaftafell National Park,South Iceland,Iceland,National Park,64.006944,-16.6325,500000.0,Summer,Medium-high,5.0
+Vatnajökull National Park,Southeast Iceland,Iceland,National Park,64.006944,-16.6325,500000.0,Summer,Medium-high,5.0
+Akureyri,North Iceland,Iceland,City,65.668611,-18.081389,200000.0,Spring or Fall,Medium,5.0
+Snæfellsjökull National Park,West Iceland,Iceland,National Park,64.640556,-22.189722,100000.0,Spring or Fall,Medium,5.0
+Westfjords,Westfjords,Iceland,Region,65.640556,-20.189722,50000.0,Spring or Fall,Medium,5.0
+Jökulsárlón Glacier Lagoon,Southeast Iceland,Iceland,Glacier Lagoon,64.006944,-16.6325,200000.0,Summer,Medium-high,5.0
+Reynisfjara Black Sand Beach,South Iceland,Iceland,Beach,63.703056,-20.031944,100000.0,Year-round,Medium-high,5.0
+Belgrade,Central Serbia,Serbia,City,44.816667,20.448889,1500000.0,Spring or Fall,Medium,4.0
+Novi Sad,Vojvodina,Serbia,City,45.263333,19.846667,500000.0,Spring or Fall,Medium,5.0
+Niš,Southern Serbia,Serbia,City,43.322222,21.888889,300000.0,Spring or Fall,Medium,5.0
+Belgrade Fortress,Belgrade,Serbia,Fortress,44.816667,20.448889,200000.0,Year-round,Free,5.0
+Tara National Park,Western Serbia,Serbia,National Park,43.2,19.35,100000.0,Summer,Medium-high,5.0
+Kopaonik,Central Serbia,Serbia,Mountain Range,43.575278,20.760556,100000.0,Winter,Medium-high,5.0
+Novi Sad Fortress,Novi Sad,Serbia,Fortress,45.263333,19.846667,50000.0,Year-round,Free,5.0
+Sremski Karlovci,Vojvodina,Serbia,Town,45.263333,19.846667,25000.0,Spring or Fall,Medium,5.0
+Subotica,North Backa,Serbia,City,46.083333,18.966667,20000.0,Spring or Fall,Medium,5.0
+Vrnjačka Banja,Raška,Serbia,Spa Town,43.519722,20.851389,10000.0,Year-round,Medium-high,5.0

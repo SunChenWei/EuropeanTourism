@@ -1,0 +1,264 @@
+:root{
+    --left-w: 200px;
+    --gap: 12px;
+    --bg: #eaf4fb;      
+    --card-bg: #ffffff;
+    --accent: #2777cc; 
+  }
+  
+  *{box-sizing:border-box;font-family: Inter, "Helvetica Neue", Lato, sans-serif}
+  html,body{height:100%;margin:0;padding:0;background:var(--bg);color:#222}
+  h1{margin:0;font-size:25px;color:#fff}
+  h2{margin:0 0 8px 0;font-size:15px}
+  
+  /* Title bar on top */
+  #title-bar{
+    height:56px;
+    padding:10px 18px;
+    background:var(--accent);    
+    border-bottom:1px solid rgba(0,0,0,0.04);
+    display:flex;
+    align-items:center
+  }
+  
+  /* App grid: left filter + 2x2 slots */
+  #app-grid{
+    display:grid;
+    grid-template-columns: var(--left-w) 2fr 1fr;
+    grid-template-rows: 0.8fr 1.2fr;
+    gap: var(--gap);
+    padding:18px;
+    align-items:start;
+    height: calc(100vh - 56px - 36px);
+  }
+  
+  /* filter bar on the left */
+  #filter-bar{
+    grid-column:1;
+    background:var(--card-bg);
+    padding:12px;
+    border-radius:8px;
+    box-shadow:0 1px 4px rgba(0,0,0,0.06);
+    overflow:auto;
+    border:1.5px solid var(--accent);
+  }
+  #filter-bar label{display:block;margin-top:15px;font-size:13px;color:#444;font-weight: 600;}
+  #filter-bar select, #filter-bar input[type=range]{width:100%;margin-top:6px;padding:6px}
+  #colRangeVal, #safetyRangeVal {
+    font-size: 12px; 
+    color: #555;  
+    position: relative;
+    top: -10px;
+  }
+
+  #selected-destination {
+    display:block;
+    margin-top:15px;
+    font-size:13px;
+    color:#444;
+    font-weight: 600;
+    margin-top: 32px; 
+    display: flex;
+    flex-direction: column;
+  }  
+  
+  #selected-destination .slot-body {
+    padding: 8px;
+    background: linear-gradient(180deg,#fafbff,#f6f8fc);
+    border-radius: 6px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Destination info styles */
+  .destination-detail {
+    text-align: left;
+    line-height: 1.3;
+  }
+  
+  .destination-detail .title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #2777cc;
+    margin-bottom: 6px;
+    display: block;
+  }
+  
+  .destination-detail .info-row {
+    margin: 2px 0;
+    font-size: 11px;
+  }
+  
+  .destination-detail .info-label {
+    font-weight: 600;
+    color: #444;
+  }
+  
+  .destination-detail .info-value {
+    color: #666;
+  }
+  
+  /* Route-specific styling */
+  .route-number {
+    background: #e74c3c;
+  }
+  
+  /* Floating multi-selection list on dotmap */
+  .floating-selection-list {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    max-width: 250px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    padding: 8px;
+    z-index: 100;
+    backdrop-filter: blur(4px);
+  }
+  
+  .floating-list-header {
+    font-size: 11px;
+    font-weight: 600;
+    color: #2777cc;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 6px;
+  }
+  
+  .floating-list-items {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .floating-list-items::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  .floating-list-items::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 2px;
+  }
+  
+  .floating-dest-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 6px;
+    background: rgba(39, 119, 204, 0.08);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-left: 2px solid transparent;
+  }
+  
+  .floating-dest-item:hover {
+    background: rgba(39, 119, 204, 0.15);
+    border-left-color: #2777cc;
+  }
+  
+  .floating-dest-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    background: #2777cc;
+    color: white;
+    border-radius: 50%;
+    font-size: 9px;
+    font-weight: bold;
+    flex-shrink: 0;
+  }
+  
+  .floating-dest-name {
+    font-size: 11px;
+    font-weight: 600;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Route number styling in floating list */
+  .floating-dest-number.route-number {
+    background: #e74c3c;
+  }
+  
+  
+  /* Slots */
+  .slot{
+    background:var(--card-bg);
+    border-radius:8px;
+    padding:8px;
+    box-shadow:0 1px 6px rgba(0,0,0,0.06);
+    display:flex;
+    flex-direction:column;
+    min-height:0;
+    border:1.5px solid var(--accent);
+  }
+  .slot-title{font-weight:600;margin-bottom:6px;font-size:13px}
+  .slot-body{
+    flex:1;
+    background:linear-gradient(180deg,#fafbff,#f6f8fc);
+    border-radius:6px;
+    padding:0;
+    color:#666;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  
+  /* specifically place slots */
+  #slot-dotmap{grid-column:2;grid-row:1;}
+  #slot-polar{grid-column:3;grid-row:1}
+  #slot-treemap{margin-top:80px;grid-column:2;grid-row:2}
+  #slot-scatter{grid-column:3;grid-row:2;}
+  
+  /* scatter container sizing */
+  #scatter-container {
+    width: 100%;
+    min-height: 425px;
+    position: relative;
+  }
+
+  #dotmap-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  #polar-container {width:100%;height:100%;min-height:260px;position:relative}
+
+  
+  /* tooltip */
+  .tooltip{position:absolute;background:#fff;border:1px solid rgba(0,0,0,0.08);padding:8px;border-radius:6px;box-shadow:0 3px 10px rgba(0,0,0,0.12);font-size:13px;pointer-events:none}
+  
+  /* controls area in filter bar */
+  .controls{margin-top:14px;display:flex;gap:8px;align-items:center}
+  #resultCount{font-size:13px;color:#666;margin-left:auto}
+  button{
+    background:var(--accent);
+    color:#fff;
+    padding:6px 8px;
+    border-radius:6px;
+    border:0;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:600;
+  }
+  button:hover{opacity:0.95}
+  
+  /* responsive */
+  @media (max-width:1100px){
+    #app-grid{grid-template-columns: var(--left-w) 1fr;grid-template-rows:auto auto auto; grid-auto-flow:row}
+    #slot-dotmap{grid-column:2}
+    #slot-polar{grid-column:2}
+    #slot-treemap{grid-column:2}
+    #slot-scatter{grid-column:2}
+  }

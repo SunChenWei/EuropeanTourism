@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <title>European Tourism</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="title-bar">
+    <h1>European Tourism</h1>
+  </header>
+
+  <div id="app-grid">
+    <aside id="filter-bar">
+      <h2></h2>
+
+      <div class="controls">
+        <button id="clearFilters">Clear filters</button>
+        <span id="resultCount">Showing: —</span>
+      </div>
+
+      <label for="countrySelect">Country</label>
+      <select id="countrySelect"><option value="">All</option></select>
+
+      <label for="regionSelect">Region</label>
+      <select id="regionSelect"><option value="">All</option></select>
+
+      <label for="categorySelect">Category</label>
+      <select id="categorySelect"><option value="">All</option></select>
+
+      <label for="seasonSelect">Best time to visit</label>
+      <select id="seasonSelect"><option value="">All</option></select>
+
+      <!-- Cost of Living range -->
+      <label for="colRange">Cost of Living (min)</label>
+      <input id="colRange" type="range" min="1" max="5" step="1" value="1" />
+      <span id="colRangeVal">Free</span>
+
+      <!-- Safety range -->
+      <label for="safetyRange">Safety (min)</label>
+      <input id="safetyRange" type="range" min="-1" max="5" step="1" value="-1" />
+      <span id="safetyRangeVal">Restricted</span>
+
+      <!-- Information -->
+      <div id="selected-destination">
+        <div class="slot-title">Selected Destination</div>
+        <div class="slot-body" id="destination-info">[Info will appear here]</div>
+      </div>
+
+    </aside>
+
+    <!-- Top-left: Dot Map (now implemented) -->
+    <div id="slot-dotmap" class="slot">
+      <div class="slot-body" id="dotmap-container"></div>
+    </div>
+      
+    <!-- Top-right: Polar Area -->
+    <div id="slot-polar" class="slot">
+      <div class="slot-body" id="polar-container"></div>
+    </div>
+      
+    <!-- Bottom-left: Treemap -->
+    <div id="slot-treemap" class="slot">
+      <div class="slot-body">
+        <img src="img/treemap.png" alt="Treemap sketch" style="max-width:100%; max-height:100%; object-fit:contain;" />
+      </div>
+    </div>
+
+    <!-- Bottom-right: Scatter (implemented) -->
+    <div id="slot-scatter" class="slot">
+      <div class="slot-body" id="scatter-container"></div>
+    </div>
+  </div>
+
+  <!-- tooltip — used by both scatter and dotmap -->
+  <div id="tooltip" class="tooltip" style="display:none"></div>
+
+  <!-- TopoJSON library (required for map) -->
+  <script src="https://cdn.jsdelivr.net/npm/topojson@3"></script>
+  
+  <!-- Main app script -->
+  <script type="module" src="main.js"></script>
+</body>
+</html>
