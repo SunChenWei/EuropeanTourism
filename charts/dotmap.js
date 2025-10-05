@@ -520,6 +520,11 @@ export function updateDotMap(data) {
         removeFromMultiSelection(d.id);
         applyCircleStyle(circle, getCircleStyle('normal', currentZoom), currentZoom);
         
+        // Update scatter plot to reflect deselection
+        if (window.highlightAllScatterDestinations) {
+          window.highlightAllScatterDestinations();
+        }
+        
         // Clear scatterplot selection if this was the only selected destination
         if (selectedDestinations.length === 0 && window.clearScatterSelection) {
           window.clearScatterSelection();
@@ -529,6 +534,11 @@ export function updateDotMap(data) {
         if (selectedDestinations.length < CONFIG.MAX_SELECTIONS) {
           addToMultiSelection(d);
           applyCircleStyle(circle, getCircleStyle('selected', currentZoom), currentZoom);
+          
+          // Update scatter plot to reflect selection
+          if (window.highlightAllScatterDestinations) {
+            window.highlightAllScatterDestinations();
+          }
         }
       }
       
@@ -576,6 +586,11 @@ export function clearSelections() {
   updateSelectedCount();
   clearRoute();
   removeFloatingList();
+  
+  // Clear scatterplot selection
+  if (window.clearScatterSelection) {
+    window.clearScatterSelection();
+  }
   
   document.getElementById('destination-info').innerHTML = "[Info will appear here]";
 }
